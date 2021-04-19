@@ -1,17 +1,17 @@
 public class Card {
     // instance variables - replace the example below with your own
     private int valor;
-    private char figura;
+    private String figura;
 
     public Card()
     {
         valor=0;
-        figura='♣';
+        figura="♣";
     }
     /**
      * Constructor for objects of class Card
      */
-    public Card(int valor,char figura)
+    public Card(int valor,String figura)
     {
         // initialise instance variables
         this.valor=valor;
@@ -43,11 +43,11 @@ public class Card {
     {
         return valor;
     }
-    public void setFigura(char figura)
+    public void setFigura(String figura)
     {
         this.figura=figura;
     }
-    public char getFigura()
+    public String getFigura()
     {
         return figura;
     }
