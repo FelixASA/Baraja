@@ -6,7 +6,7 @@ public class Card {
     public Card()
     {
         valor=0;
-        figura="♣";
+        figura="Trebol";
     }
     /**
      * Constructor for objects of class Card
@@ -33,7 +33,7 @@ public class Card {
             default: valorC=valor+"";
                 break;
         }
-        return valorC+figura;
+        return valorC+" de "+figura;
     }
     public void setValor(int valor)
     {
