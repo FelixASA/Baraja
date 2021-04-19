@@ -6,7 +6,6 @@ public class Baraja {
         Card carta;
         int i=rnd.nextInt(51);
         carta=deck.quitarCarta(i);
-        System.out.println("Carta obtenida:" +carta);
-        //Hola
+        System.out.println("Carta obtenida:" +carta.toString());
     }
 }
